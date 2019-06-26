@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import "./Post.css";  
+import "./Post.css";
+import "./AvatarSmall"
+import AvatarSmall from "./AvatarSmall";
 
 class Post extends Component {
     render() {
       return <article className="Post" ref="Post">
           <header>
               <div className="Post-user">
-                <div className="Post-user-avatar">
-                  <img src="https://scontent-lht6-1.cdninstagram.com/vp/e2c94cacf60c6511b2cbe1a99999eb28/5DA1F964/t51.2885-19/s320x320/14596696_1806049626330886_8739327968465125376_a.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com" alt="Chris" />
-                </div>
+                <AvatarSmall />
                 <div className="Post-user-nickname">
                   <span>Chris</span>
                 </div>
@@ -20,6 +20,7 @@ class Post extends Component {
               </div>
             </div>
             <div className="Post-caption">
+              <AvatarSmall />
               <strong>Chris</strong> Moving the community!
             </div>
             <div className="Comments">
