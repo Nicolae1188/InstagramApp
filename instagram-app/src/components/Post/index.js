@@ -25,4 +25,4 @@ class Post extends Component {
           </article>;
         }
     }
-export default Post;
+export default Post
