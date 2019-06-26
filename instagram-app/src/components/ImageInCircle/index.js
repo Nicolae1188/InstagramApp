@@ -18,8 +18,6 @@ class ImageInCircle extends React.Component {
                     <DisplayStoryCard name={this.state.storyName} image={this.state.storyImage} />
                     <DisplayStoryCard name={this.state.storyName} image={this.state.storyImage} />
                     <DisplayStoryCard name={this.state.storyName} image={this.state.storyImage} />
-
-                {/* </div> */}
             </div>
         );
     }
