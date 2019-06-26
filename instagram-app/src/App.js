@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Post from './components/Post';
+import Footer from './components/Footer'
 import ImageInCircle from './components/ImageInCircle';
 
 class App extends React.Component {
@@ -13,8 +14,13 @@ class App extends React.Component {
         </div>
         <div>
           <Post />
+        <div>
+        <Footer />
+           </div>
+         </div>
         </div>
       </div>
+      
     );
   }
 }
