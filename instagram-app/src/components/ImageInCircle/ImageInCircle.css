@@ -20,21 +20,25 @@ p {
   margin: auto;
 }
 .StoriesBox {
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  width: 20%;
+  min-width: 75px;
   /* height: 20%; */
   /* background-color:white; */
   /* margin:auto; */
-  margin: 0;
+  margin: 0 5px;
   padding:0;
   /* border:solid black; */
 }
 
 .StoriesBar {
   display: flex;
-  flex-direction: row;
+  flex: 1;
+  justify-content: space-around;
   width: 100vw;
+  height: 12vh;
   background-color: whitesmoke;
+  overflow: scroll;
+  flex-wrap: nowrap;
 }
