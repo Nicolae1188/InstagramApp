@@ -1,0 +1,14 @@
+.Footer {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  justify-content: center;
+  position:absolute;
+  bottom:0;
+}
+
+.Footer-icons img {
+  height: 30px;
+  width: 50px;
+}
+  
