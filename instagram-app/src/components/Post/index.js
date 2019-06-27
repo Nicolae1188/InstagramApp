@@ -19,6 +19,10 @@ class Post extends Component {
                 <img alt="Icon Living" src="https://pbs.twimg.com/media/DOXI0IEXkAAkokm.jpg" />
               </div>
             </div>
+            <div className="Actions-bar">
+              <i class="far fa-heart"></i>
+              <img src="./Vector.png" alt="" />
+            </div>
             <div className="Post-caption">
               <AvatarSmall />
               <strong>Chris</strong> Moving the community!
