@@ -36,18 +36,3 @@ const DisplayStoryCard = props => (
 
 
 export default ImageInCircle;
-
-{/* <div className="StoriesBar">
-           <div className="StoriesBox" >
-               <div className="Circle">
-                   <img src=" alt=""/>
-               </div>
-               <p>name</p>
-           </div>
-           <div className="StoriesBox" >
-               <div className="Circle">
-                   <img src=" alt="" />
-               </div>
-               <p>name</p>
-           </div>
-       </div> */}
