@@ -3,28 +3,38 @@ p {
   margin: 0;
   margin-bottom: 3px;
 }
+
+/* .WholeScreen {
+  position: absolute;
+  border: solid black;
+  height:100vh;
+  width:100vw;
+  z-index: 1;
+  background-color: blueviolet
+} */
+
 .Circle img {
-  width: 100%;
-  height: 100%;
+  width: 54px;
+  height: 54px;
   border-radius: 50%;
 }
 .Circle {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 85%;
-  width: 85%;
+  height: 56px;
+  width: 56px;
   border-radius: 50%;
   border: 3px solid red;
   padding: 2px;
-  margin: auto;
+  margin-top: auto;
 }
 .StoriesBox {
   display: flex;
   flex-direction: column;
   text-align: center;
   min-width: 75px;
-  /* height: 20%; */
+  /* height: 100%; */
   /* background-color:white; */
   /* margin:auto; */
   margin: 0 5px;
@@ -34,11 +44,11 @@ p {
 
 .StoriesBar {
   display: flex;
-  flex: 1;
-  justify-content: space-around;
+  /* flex: 1; */
+  /* justify-content: space-around; */
   width: 100vw;
-  height: 12vh;
+  height: 10vh;
   background-color: whitesmoke;
   overflow: scroll;
-  flex-wrap: nowrap;
+  /* flex-wrap: nowrap; */
 }
