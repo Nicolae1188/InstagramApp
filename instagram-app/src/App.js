@@ -8,7 +8,7 @@ import "./App.css";
 class App extends React.Component {
   render() {
     return (
-      <div className="wholeScreen">
+      <div className="WholeScreen">
         <div>
           <Header />
           <div>
