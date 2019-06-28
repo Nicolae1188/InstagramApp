@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "./Post.css";
 import "./AvatarSmall"
 import AvatarSmall from "./AvatarSmall";
+import chatBubble from "./vectorcevtor.svg"
+import SaveIcon from "./image2vector.svg"
 
 class Post extends Component {
     render() {
@@ -20,12 +22,18 @@ class Post extends Component {
               </div>
             </div>
             <div className="Actions-bar">
-              <i class="far fa-heart"></i>
-              <img src="./Vector.png" alt="" />
+              <div className="Actions-right">
+                <i id="likeButton" className="far fa-heart"></i>
+                <img className="Comment" src={chatBubble} alt="i" />
+                <i id="Share" className="far fa-paper-plane"></i>
+                {/* <img className="Save" src={SaveIcon} alt="i" /> */}
+              </div>
             </div>
             <div className="Post-caption">
               <AvatarSmall />
-              <strong>Chris</strong> Moving the community!
+              <div className="Caption">
+               <strong>Chris</strong> Moving the community!
+              </div>
             </div>
             <div className="Comments">
               <strong>bestliverpoolphoto</strong> Great Photo!

@@ -46,3 +46,42 @@
 .Comments {
     padding: 8px;
 }
+
+.Actions-bar {
+    display: flex;
+    padding-top: 10px;
+    /* justify-content: space-around; */
+}
+.Actions-right {
+    width: 25vw;
+    display: flex;
+    justify-content: space-around;
+}
+#likeButton {
+    height: 20px;
+    width: 20px;
+    /* padding-top: 5px;
+    padding-bottom: 5px */
+}
+
+.Comment {
+    height: 20px;
+    /* padding-bottom: 3px; */
+}
+
+#Share {
+    height: 20px;
+    width: 20px;
+    /* padding-bottom: 3px; */
+}
+
+.Post-caption {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.Caption {
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+}
