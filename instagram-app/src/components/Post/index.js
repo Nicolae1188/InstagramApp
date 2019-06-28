@@ -1,14 +1,16 @@
 import React, { Component } from "react";
-import "./Post.css";  
+import "./Post.css";
+import "./AvatarSmall"
+import AvatarSmall from "./AvatarSmall";
+import chatBubble from "./vectorcevtor.svg"
+import SaveIcon from "./image2vector.svg"
 
 class Post extends Component {
     render() {
       return <article className="Post" ref="Post">
           <header>
               <div className="Post-user">
-                <div className="Post-user-avatar">
-                  <img src="https://scontent-lht6-1.cdninstagram.com/vp/e2c94cacf60c6511b2cbe1a99999eb28/5DA1F964/t51.2885-19/s320x320/14596696_1806049626330886_8739327968465125376_a.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com" alt="Chris" />
-                </div>
+                <AvatarSmall />
                 <div className="Post-user-nickname">
                   <span>Chris</span>
                 </div>
@@ -19,8 +21,19 @@ class Post extends Component {
                 <img alt="Icon Living" src="https://pbs.twimg.com/media/DOXI0IEXkAAkokm.jpg" />
               </div>
             </div>
+            <div className="Actions-bar">
+              <div className="Actions-right">
+                <i id="likeButton" className="far fa-heart"></i>
+                <img className="Comment" src={chatBubble} alt="i" />
+                <i id="Share" className="far fa-paper-plane"></i>
+                {/* <img className="Save" src={SaveIcon} alt="i" /> */}
+              </div>
+            </div>
             <div className="Post-caption">
-              <strong>Chris</strong> Moving the community!
+              <AvatarSmall />
+              <div className="Caption">
+               <strong>Chris</strong> Moving the community!
+              </div>
             </div>
             <div className="Comments">
               <strong>bestliverpoolphoto</strong> Great Photo!

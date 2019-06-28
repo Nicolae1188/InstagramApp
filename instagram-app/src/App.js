@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Post from './components/Post';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
 import ImageInCircle from './components/ImageInCircle';
 import "./App.css";
 
@@ -22,6 +22,7 @@ class App extends React.Component {
           </div>
         </div>   
       </div> //end wholeScreen
+
     );
   }
 }
