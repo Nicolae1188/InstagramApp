@@ -64,7 +64,6 @@ const DisplayStoryCard = props => {
 const DisplayFullStory = props => {
     return (
         <div className="WholeScreen">
-
             <img src={props.image} alt="DFS" onClick={props.click} />
         </div>
     )
