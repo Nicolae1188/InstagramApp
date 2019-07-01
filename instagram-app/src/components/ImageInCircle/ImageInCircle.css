@@ -75,4 +75,5 @@ p {
   background-color: whitesmoke;
   overflow: scroll;
   /* flex-wrap: nowrap; */
+  padding-top: 8vh;
 }
