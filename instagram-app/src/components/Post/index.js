@@ -36,10 +36,10 @@ class Post extends Component {
             <div className="Post-caption">
 
               <AvatarSmall />
-              <Comment />
               <Username />
 
               <div className="Caption">
+              
                Moving the community!
               </div>
             </div>
@@ -48,8 +48,11 @@ class Post extends Component {
             </div>
             <div className="Comments">
             <strong>codenation</strong> I love the concentration in the room!
+            
           </div>
+          <Comment />
         </article>
+         
       )}
     }
 
