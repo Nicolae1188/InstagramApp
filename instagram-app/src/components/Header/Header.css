@@ -1,5 +1,5 @@
 /* src/components/Header/Header.css */
-i.Nav {
+/* i.Nav { */
     /* background-color: #fff;
     border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
     position: fixed;
@@ -9,17 +9,17 @@ i.Nav {
     -webkit-transition: height 0.2s ease-in-out;
     transition: height 0.2s ease-in-out;
     height: 77px; */
-    display:flex;
+    /* display:flex;
     flex-direction: row;
   }
   .Nav-menus {
     display: flex;
     flex-direction: row;
     height: 30%;
-    width: 100%;
+    width: 100%; */
     /* margin: 0 auto; */
     /* padding: 26px 40px; */
-  }
+  /* }
   .Nav-brand-logo {
     display: block;
     
@@ -45,5 +45,28 @@ i.Nav {
   .nav-brand {
     display:flex;
     flex-direction: row;
-    width:100%;
+    wif
+  } */
+
+  .logo {  
+    display:flex;
+    flex-direction: row-reverse;
   }
+
+  .logos {
+    height: 4vh;
+    
+  }
+
+  .Nav-brand-logo {
+    display: block;
+    
+    background-position: -176px 0px;
+    background-image: url(sprite.png);
+    background-size: 405px 379px;
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 176px;
+    text-indent: -1000%
+  }
+  

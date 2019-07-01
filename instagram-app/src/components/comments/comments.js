@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './comments.css';
+
 class App extends Component {
   constructor() {
     super();
@@ -97,4 +98,5 @@ class Comment extends Component {
     );
   }
 }
+
 export default App;

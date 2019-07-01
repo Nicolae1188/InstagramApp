@@ -14,9 +14,9 @@ class Header extends React.Component {
                             Instagram
                         </a>
                         <div className="logo">
-                        <img className="logos" src={Compass}></img>
-                        <img className="logos" src={lilheart}></img>
-                        <img className="logos" src={lilMan}></img>
+                        <img className="logos" alt="logo" src={Compass}></img>
+                        <img className="logos" alt="logo" src={lilheart}></img>
+                        <img className="logos" alt="logo" src={lilMan}></img>
                         </div>
                     </div>
                 </div>
