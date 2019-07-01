@@ -5,7 +5,7 @@ import AvatarSmall from "./AvatarSmall";
 import chatBubble from "./vectorcevtor.svg"
 import SaveIcon from "./image2vector.svg"
 import Comment from"../comments/comments.js"
-import Username from "./AvatarSmall";
+import Username from "./Username";
 
 
 class Post extends Component {
@@ -33,15 +33,8 @@ class Post extends Component {
                 {/* <img className="Save" src={SaveIcon} alt="i" /> */}
               </div>
             </div>
-            <div className="Post-caption">
-
-              <AvatarSmall />
-              <Username />
-
-              <div className="Caption">
-              
-               Moving the community!
-              </div>
+            <div className="Comments">
+              <Username /> Moving the community!
             </div>
             <div className="Comments">
               <strong>bestliverpoolphoto</strong> Great Photo!

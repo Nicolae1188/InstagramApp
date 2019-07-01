@@ -16,6 +16,8 @@ class App extends React.Component {
           </div>
           <div>
             <Post />
+            <Post />
+            <Post />
             <div>
               <Footer />
             </div>

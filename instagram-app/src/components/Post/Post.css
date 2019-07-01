@@ -1,56 +1,21 @@
-.Post {
-    width: 100%;
-    border-radius: 3px;
-    border: 1px solid #e6e6e6;
-    background-color: #fff;
-    margin-bottom: 60px;
-}
 .Post-user {
     display: flex;
     padding: 16px;
     align-items: center;
 }
-.Post-user-avatar {
-    width: 30px;
-    height: 30px;
-}
-.Post-user-avatar img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-}
-  .Post-user-nickname {
-    margin-left: 12px;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
-}
-.Post-image-bg {
-    background-color: #efefef;
-}
+
 .Post-image img {
     display: block;
     width: 100%;
 }
-.Post-caption {
-    padding: 16px 16px;
-}
-.Post-caption strong {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
-}
-.vjs-fade-out {
-    display: none;
-    visibility: hidden;
-    opacity: 0;
-}
+
 .Comments {
-    padding: 8px;
+    padding: 4px 10px 0px 8px;
 }
 
 .Actions-bar {
     display: flex;
     padding-top: 10px;
-    /* justify-content: space-around; */
 }
 .Actions-right {
     width: 25vw;
@@ -60,28 +25,70 @@
 #likeButton {
     height: 20px;
     width: 20px;
-    /* padding-top: 5px;
-    padding-bottom: 5px */
 }
 
 .Comment {
     height: 20px;
-    /* padding-bottom: 3px; */
+    padding-bottom: 3px;
 }
 
 #Share {
     height: 20px;
     width: 20px;
-    /* padding-bottom: 3px; */
+    padding-bottom: 3px;
 }
 
 .Post-caption {
-    display: flex;
-    justify-content: left;
-    align-items: center;
+    padding: 8px;
 }
-.Caption {
-    width: 60vw;
-    display: flex;
-    justify-content: space-around;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .Post {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+} */
+/* .Post-user-avatar {
+    width: 30px;
+    height: 30px;
+} */
+/* .Post-user-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+} */
+  /* .Post-user-nickname {
+    margin-left: 12px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+} */
+/* .Post-image-bg {
+    background-color: #efefef;
+} */
+
+/* .Post-caption strong {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+} */
+/* .vjs-fade-out {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+} */
