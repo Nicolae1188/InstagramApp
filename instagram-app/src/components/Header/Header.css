@@ -3,7 +3,9 @@
     flex-direction: row;
     height: 8vh;
     align-items: center;
-    background-color: white
+    background-color: white;
+    position: fixed;
+    width: 100vw;
   }
   .Nav-menus {
     display: flex;

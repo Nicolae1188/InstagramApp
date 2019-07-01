@@ -23,7 +23,7 @@ class CommentMain extends Component {
          {this.state.commentBoxes.map(function(commentBox) {
            return commentBox;
          })}
-        <button onClick={this.addNewCommentBox.bind(this)}>Add new commentbox</button>
+        <button onClick={this.addNewCommentBox.bind(this)}>Add a comment</button>
 
       </div>
     );
@@ -84,9 +84,12 @@ class CommentList extends Component {
                        return <Comment key={comment.id} author={comment.author} text={comment.text}/>;
                      })
     return (
+      <div className="Comments">
+      
       <ul className="CommentList">
         {liComments}
       </ul>
+      </div>
     );
   }
 }
@@ -94,7 +97,7 @@ class Comment extends Component {
   render() {
     return (
       <li key={this.props.id} className="Comment">
-        {this.props.author}: {this.props.text}
+        <strong>{this.props.author}</strong> {this.props.text}
       </li>
     );
   }
