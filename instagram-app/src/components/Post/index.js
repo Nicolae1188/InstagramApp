@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import "./Post.css";
 import "./AvatarSmall"
 import AvatarSmall from "./AvatarSmall";
-import chatBubble from "./vectorcevtor.svg"
-import SaveIcon from "./image2vector.svg"
-import Comment from"../comments/comments.js"
+import chatBubble from "./vectorcevtor.svg";
+import SaveIcon from "./image2vector.svg";
+import Comment from"../comments/comments.js";
 import Username from "./AvatarSmall";
 
 
