@@ -8,7 +8,6 @@ import "./App.css";
 class App extends React.Component {
   render() {
     return (
-      <div className="WholeScreen">
         <div>
           <Header />
           <div>
@@ -21,8 +20,6 @@ class App extends React.Component {
             </div>
           </div>
         </div>   
-      </div> //end wholeScreen
-
     );
   }
 }
