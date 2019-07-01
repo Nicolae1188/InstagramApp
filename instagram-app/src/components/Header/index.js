@@ -13,9 +13,11 @@ class Header extends React.Component {
                         <a className="Nav-brand-logo" href="/">
                             Instagram
                         </a>
-                        <img src={Compass}></img>
-                        <img src={lilheart}></img>
-                        <img src={lilMan}></img>
+                        <div className="logo">
+                        <img className="logos" src={Compass}></img>
+                        <img className="logos" src={lilheart}></img>
+                        <img className="logos" src={lilMan}></img>
+                        </div>
                     </div>
                 </div>
             </nav>
