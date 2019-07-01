@@ -1,6 +1,9 @@
 .Post-user-avatar {
     width: 30px;
     height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .Post-user-avatar img {
     width: 100%;

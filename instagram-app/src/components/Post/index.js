@@ -4,15 +4,17 @@ import "./AvatarSmall"
 import AvatarSmall from "./AvatarSmall";
 import chatBubble from "./vectorcevtor.svg"
 import SaveIcon from "./image2vector.svg"
+import Username from "./AvatarSmall";
 
 class Post extends Component {
     render() {
-      return <article className="Post" ref="Post">
-          <header>
+      return (
+       <article className="Post" ref="Post">
+            <header>
               <div className="Post-user">
                 <AvatarSmall />
                 <div className="Post-user-nickname">
-                  <span>Chris</span>
+                  
                 </div>
               </div>
             </header>
@@ -30,9 +32,9 @@ class Post extends Component {
               </div>
             </div>
             <div className="Post-caption">
-              <AvatarSmall />
+            <Username />
               <div className="Caption">
-               <strong>Chris</strong> Moving the community!
+               Moving the community!
               </div>
             </div>
             <div className="Comments">
@@ -40,8 +42,26 @@ class Post extends Component {
             </div>
             <div className="Comments">
             <strong>codenation</strong> I love the concentration in the room!
-            </div>
-          </article>;
-        }
+          </div>
+        </article>
+      )}
     }
+
+    class Counter extends React.Component {
+      state = {
+        count: 83
+      };
+      oneUp = () => {
+        this.setState((prevState, { count }) => ({
+          count: prevState.count + 1
+        }));
+      };
+    
+      oneDown = () => {
+        this.setState((prevState, { count }) => ({
+          count: prevState.count - 1
+        }));
+      };
+    }
+      
 export default Post;
