@@ -2,6 +2,9 @@ import React from 'react';
 import "./ImageInCircle.css";
 import "../../App.css";
 import { tsPropertySignature } from '@babel/types';
+import "../Post/AvatarSmall.css"
+import "../Post/AvatarSmall.js"
+import AvatarSmall from '../Post/AvatarSmall.js';
 
 class ImageInCircle extends React.Component {
     state = {
@@ -64,7 +67,11 @@ const DisplayStoryCard = props => {
 const DisplayFullStory = props => {
     return (
         <div className="WholeScreen">
-            <img src={props.image} alt="DFS" onClick={props.click} />
+        <div className="StoryHeader">
+            <AvatarSmall />
+        </div>
+            <button onClick={props.click}>X</button>   
+            <img src={props.image} alt="DFS" />
         </div>
     )
 }
