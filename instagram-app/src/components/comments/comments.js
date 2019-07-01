@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './comments.css';
 
-class App extends Component {
+class CommentMain extends Component {
   constructor() {
     super();
     this.state = {
@@ -16,9 +16,10 @@ class App extends Component {
     let commentBox = <CommentBox key={this.state.commentBoxId}/>
     this.setState({commentBoxes: this.state.commentBoxes.concat(commentBox)});
   }  
+
   render() {
     return (
-      <div class="App">
+      <div>
          {this.state.commentBoxes.map(function(commentBox) {
            return commentBox;
          })}
@@ -48,7 +49,7 @@ class CommentBox extends Component {
     
   render() {
     return (
-      <div className="App">
+      <div >
       <div className="CommentBox">
         <CommentList comments={this.state.comments}/>
         <CommentInput onCommentSubmit={this.handleOnSubmit.bind(this)}/>
@@ -99,4 +100,4 @@ class Comment extends Component {
   }
 }
 
-export default App;
+export default CommentMain;
