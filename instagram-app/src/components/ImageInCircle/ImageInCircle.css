@@ -5,6 +5,7 @@ p {
 }
 .WholeScreen {
   position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -75,4 +76,5 @@ p {
   background-color: whitesmoke;
   overflow: scroll;
   /* flex-wrap: nowrap; */
+  padding-top: 8vh;
 }
