@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./AvatarSmall.css";
 import Username from "./Username"
+
 const AvatarSmall = () => {
     
     return(
