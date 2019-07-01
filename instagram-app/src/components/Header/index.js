@@ -13,6 +13,7 @@ class Header extends React.Component {
                       <div className="left">
                         <div className="Nav-brand-logo" href="/">
                             Instagram
+
                         </div>
                       </div>
                       <div className="right">
@@ -20,6 +21,7 @@ class Header extends React.Component {
                         <img className="logos" src={lilheart} />
                         <img className="logos" src={lilMan} />
                       </div>
+
                     </div>
                 </div>
             </nav>

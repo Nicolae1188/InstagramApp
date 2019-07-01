@@ -4,7 +4,9 @@ import "./AvatarSmall"
 import AvatarSmall from "./AvatarSmall";
 import chatBubble from "./vectorcevtor.svg"
 import SaveIcon from "./image2vector.svg"
+import Comment from"../comments/comments.js"
 import Username from "./AvatarSmall";
+
 
 class Post extends Component {
     render() {
@@ -32,7 +34,11 @@ class Post extends Component {
               </div>
             </div>
             <div className="Post-caption">
-            <Username />
+
+              <AvatarSmall />
+              <Comment />
+              <Username />
+
               <div className="Caption">
                Moving the community!
               </div>
